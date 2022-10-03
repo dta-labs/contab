@@ -1,0 +1,17 @@
+#sheetTable th, #sheetTable td {
+    border-right: solid 1px #ccc;
+    text-align: center
+}
+
+#sheetTable thead th {
+    border-bottom: solid 1px #ccc
+}
+
+#inputTable th {
+    text-align: center
+}
+
+#inputTable td {
+    padding: 0;
+    overflow: hidden
+}

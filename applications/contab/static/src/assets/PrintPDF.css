@@ -1,0 +1,12 @@
+.btn-cm {
+    color: #e2e6ea;
+    cursor: pointer;
+}
+
+.btn-cm:hover {
+    color: #fff;
+}
+
+.bg-sdark {
+    background-color: #222;
+}

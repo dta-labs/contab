@@ -1,0 +1,26 @@
+#sideTab-component {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+#sideTab-component a {
+    /*float: left;*/
+    display: block;
+    color: #b6b6b6;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+
+    font-size: 90%;
+    font-weight: 600;
+}
+
+#sideTab-component a:hover {
+    border-bottom: 3px solid #dbe4e2;
+}
+
+#sideTab-component a.active {
+    border-bottom: 3px solid #1abc9c;
+    color: #2f2f2f;
+}

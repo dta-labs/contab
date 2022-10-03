@@ -1,0 +1,15 @@
+timestamp: 2022-10-03T11:44:22.513714
+CREATE TABLE "registro"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "fecha" DATE,
+    "dato" CHAR(512)
+);
+success!
+timestamp: 2022-10-03T11:44:22.526721
+CREATE TABLE "config"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "usuario" CHAR(512),
+    "organizacion" CHAR(512),
+    "scanner" INTEGER
+);
+success!
